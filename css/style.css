@@ -1,0 +1,80 @@
+.product:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+
+nav {
+    height: 10vh;
+}
+
+
+
+.sub-plan:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+
+.generalContainer {
+    position: relative;
+}
+
+.sliderContainer {
+    position: relative;
+}
+
+.arrowBtn {
+    position: absolute;
+    /* calc(50% - ?) */
+    top: 50%;
+    font-size: 28pt;
+}
+
+#slideLeftArw {
+    left: 2%;
+}
+
+#slideRightArw {
+    right: 2%;
+}
+
+#banner {
+
+}
+
+#currentImg {
+    width: 100vw;
+    height: 90vh;
+    object-fit: cover;
+}
+
+.categories {
+
+}
+
+.bannerDesc {
+    margin: auto;
+    font-size: 5rem;
+}
+
+.category {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.category:hover {
+    background-color: lightgrey;
+
+}
+
+#aboutUs , #contactUs {
+    color: whitesmoke;
+    display: none;
+}
+
+#content, #aboutusBanner {
+    height: 100%;
+}
+
+.form {
+    height: 900px;
+}
