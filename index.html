@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>eMarket</title>
+</head>
+<body>
+    <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-1 fw-bolder" href="#">eMarket</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-4">
+              <li class="nav-item">
+                <a id="homeBtn" class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a id="aboutUsBtn" class="nav-link" href="#">About US</a>
+              </li>
+              <li class="nav-item">
+                <a id="contactUsBtn" class="nav-link" href="#">Contact US</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Prouducts
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#products">Laptops</a></li>
+                  <li><a class="dropdown-item" href="#products">Tablets</a></li>
+                  <li><a class="dropdown-item" href="#products">All-In-Ones</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar End -->
+
+      <div id="homeSection">
+        <!-- Carousel End -->
+        <section id="myCarousel" >
+          <div class="generalContainer imgSlider">
+            <div class="imgViewer" id="imgViewer">
+                <div id="imgContainer"><img class="img-fluid" id="currentImg" src="images/slide1.jpg" alt=""></div>
+                <button id="slideLeftArw" type="button" class="btn arrowBtn btn-outline-dark">&lt;</button>
+                <button id="slideRightArw"  class="btn arrowBtn btn-outline-dark">&gt;</button>
+            </div>
+          </div>
+        </section>    
+        <!-- Carousel End -->
+
+        <!-- Baner -->
+        <section id="banner">
+          <div class="content" style="background: linear-gradient(90deg, #ffffff 0%, #bbbabd 100%);">
+            <div class="row text-center">
+              <div class="bannerDesc col-6 p-5">
+                <p class="desc">Shop from the comfort of your house</p>
+                  <a type="button" href="#products" class="btn btn-outline-secondary fs-3">Shop now</a>
+              </div>
+              <div class="bannerImg col-6">
+                <img id="bannerImg" src="images/bannerimg.png" class="img-fluid" alt="...">
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Subs End -->
+
+        <!-- Products -->
+        <section id="products" class="container pt-5 pb-5">
+          <div class="categories row text-center justify-content-center fs-4">
+            <div class="category col-4 p-3">
+              <a id="laptopsBtn" type="button" class="d-block text-decoration-none btn-outline-dark" href="#products">Laptops</a>
+            </div>
+            <div class="category col-4 p-3">
+              <a id="tabletsBtn" type="button" class="d-block text-decoration-none btn-outline-dark" href="#products">Tablets</a>
+            </div>
+            <div class="category col-4 p-3">
+              <a id="allInOnesBtn" type="button" class="d-block text-decoration-none btn-outline-dark" href="#products">All-In-Ones</a>
+            </div>
+          </div>
+          <div class="row justify-content-center gx-5 gy-5 p-5">
+              <div id="prodNom1" class="product col-12 col-sm-6 col-lg-3">
+                  <div class="card">
+                      <img src="images/laptop1.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Chromebook 1</h5>
+                          <p class="card-text">Intel Core i5 8th Gen 1.6 GHz- 8GB DDR4 RAM - 1TB Hard Disk - 256 GB SSD - 2 GB Intel Graphics Card.</p>
+                          <div class="row">
+                              <span class="itemPrice d-block m-auto w-50 text-center" for="">800$</span>
+                              <a href="#" class="btn btn-outline-primary d-block m-auto w-50">Add to cart</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div id="prodNom2" class="product col-12 col-sm-6 col-lg-3">
+                  <div class="card">
+                      <img src="images/laptop2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">HP 15-22</h5>
+                          <p class="card-text">Intel Core i5 8th Gen 1.6 GHz- 8GB DDR4 RAM - 1TB Hard Disk - 256 GB SSD - 2 GB Intel Graphics Card.</p>
+                          <div class="row">
+                              <span class="itemPrice d-block m-auto w-50 text-center" for="">1100$</span>
+                              <a href="#" class="btn btn-outline-primary d-block m-auto w-50">Add to cart</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div id="prodNom3" class="product col-12 col-sm-6 col-lg-3">
+                  <div class="card">
+                      <img src="images/laptop3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Lenovo Flex</h5>
+                          <p class="card-text">Intel Core i5 8th Gen 1.6 GHz- 8GB DDR4 RAM - 1TB Hard Disk - 256 GB SSD - 2 GB Intel Graphics Card.</p>
+                          <div class="row">
+                              <span class="itemPrice d-block m-auto w-50 text-center" for="">950$</span>
+                              <a href="#" class="btn btn-outline-primary d-block m-auto w-50">Add to cart</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div id="prodNom4" class="product col-12 col-sm-6 col-lg-3">
+                  <div class="card">
+                      <img src="images/laptop4.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">HP Flex</h5>
+                          <p class="card-text">Intel Core i5 8th Gen 1.6 GHz- 8GB DDR4 RAM - 1TB Hard Disk - 256 GB SSD - 2 GB Intel Graphics Card.</p>
+                          <div class="row">
+                              <span class="itemPrice d-block m-auto w-50 text-center" for="">1300$</span>
+                              <a href="#" class="btn btn-outline-primary d-block m-auto w-50">Add to cart</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div id="prodNom5" class="product col-12 col-sm-6 col-lg-3">
+                  <div class="card">
+                      <img src="images/laptop5.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">DELL Flex</h5>
+                          <p class="card-text">Intel Core i5 8th Gen 1.6 GHz- 8GB DDR4 RAM - 1TB Hard Disk - 256 GB SSD - 2 GB Intel Graphics Card.</p>
+                          <div class="row">
+                              <span class="itemPrice d-block m-auto w-50 text-center" for="">1600$</span>
+                              <a href="#" class="btn btn-outline-primary d-block m-auto w-50">Add to cart</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div id="prodNom6" class="product col-12 col-sm-6 col-lg-3">
+                  <div class="card">
+                      <img src="images/laptop6.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">Chromebook2</h5>
+                          <p class="card-text">Intel Core i5 8th Gen 1.6 GHz- 8GB DDR4 RAM - 1TB Hard Disk - 256 GB SSD - 2 GB Intel Graphics Card.</p>
+                          <div class="row">
+                              <span class="itemPrice d-block m-auto w-50 text-center" for="">600$</span>
+                              <a href="#" class="btn btn-outline-primary d-block m-auto w-50">Add to cart</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div id="prodNom7" class="product col-12 col-sm-6 col-lg-3">
+                  <div class="card">
+                      <img src="images/laptop7.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <h5 class="card-title">HP 14-21</h5>
+                          <p class="card-text">Intel Core i5 8th Gen 1.6 GHz- 8GB DDR4 RAM - 1TB Hard Disk - 256 GB SSD - 2 GB Intel Graphics Card.</p>
+                          <div class="row">
+                              <span class="itemPrice d-block m-auto w-50 text-center" for="">700$</span>
+                              <a href="#" class="btn btn-outline-primary d-block m-auto w-50">Add to cart</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div id="prodNom8" class="product col-12 col-sm-6 col-lg-3">
+                <div class="card">
+                    <img src="images/laptop8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Microsoft Flex</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="row">
+                            <span class="itemPrice d-block m-auto w-50 text-center" for="">1200$</span>
+                            <a href="#" class="btn btn-outline-primary d-block m-auto w-50">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </section>
+      <!-- Products End -->
+      </div>
+      <!-- Home End -->
+
+      <!-- AboutUS Start -->
+      <div id="aboutUs">
+        <div class="content" style="background: linear-gradient(180deg, #297dfa 0%, #2b2b2b 100%);">
+          <div class="row text-center">
+            <div class="bannerImg col-6 p-3">
+              <img id="bannerImg" src="images/aboutusimg.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="bannerDesc col-6 p-5">
+              <p class="desc">You are exactly where you should be</p>
+                <a type="button" href="#products" class="btn btn-outline-light fs-3">Contact US</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- AboutUS End -->
+
+      <!-- ContactUS Start -->
+      <!-- <div id="contactUs">
+        <div class="content" style="background: linear-gradient(180deg, #297dfa 0%, #2b2b2b 100%);">
+          <div class="row text-center m-auto">
+            <div class="col-12 p-3"><label>Full Name: <input id="name" type="text" name="name" /></label></div>
+            <div class="col-12 p-3"><label>Email:<input id="email" type="email" name="email" /></label></div>
+            <div class="col-12 p-3"><label>Message:<br/>
+              <textarea name="message" cols="30" rows="3"></textarea></label>
+            </div>
+            <div class="col-12 p-3">
+              <button type="submit" class="btn btn-outline-light fs-3">Contact US</but>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <!--start form-->
+    <section id="contactUs" class="form">
+      <div class="container h-100">
+          <div class="row">
+              <section id="myForm" class="myForm col-12">
+                  <div class="container">
+                      <form>
+                          <div class="row ">
+                              <div class="col-12 ">
+                                  <div class="form-group">
+                                      <label for="contact-name">Name</label>
+                                      <input type="text" class="form-control" id="contact-name" name="name" placeholder="Enter your name..">
+                                      <span class='error-message' id='name-error'></span>
+                                  </div>
+                              </div>
+                              <div class="col-12 ">
+                                  <div class="form-group">
+                                      <label for="contact-email">Email address</label>
+                                      <input type="email" class="form-control" id="contact-email" name="email" placeholder="Enter Email">
+                                      <span class='error-message' id='email-error'></span>
+                                  </div>
+                              </div>
+                              <div class="col-12">
+                                  <div class="form-group">
+                                      <label for='contactMessage'>Your Message</label>
+                                      <textarea class="form-control" rows="5" id='contact-message' name='message' placeholder="Enter a brief message"></textarea>
+                                      <span class='error-message' id='message-error'></span>
+                                  </div>
+                              </div>
+
+                              <div class="col-12 ">
+                                  <button id="submitBtn" type="submit" class="btn btn-outline-dark w-100 ">Submit</button>
+                                  <span class='error-message' id='submit-error'></span>
+                              </div>
+                          </div>
+                      </form>
+                  </div>
+              </section>
+          </div>
+      </div>
+  </section>
+      <!-- ContactUS End -->
+
+      <!-- Footer -->
+      <footer class="bg-dark text-center text-white">
+        <div class="container p-4 pb-0">
+          <section class="row">
+            <form action="" class="col-10">
+              <div class="row d-flex justify-content-center">
+                <div class="col-auto">
+                  <p class="pt-2">
+                    <strong>Sign up for our newsletter</strong>
+                  </p>
+                </div>
+                <div class="col-md-5 col-12">
+                  <div class="form-outline form-white mb-4">
+                    <input type="email" id="form5Example29" class="form-control" placeholder="Email address"/>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <a type="submit" class="btn btn-outline-light mb-4">Submit</a>
+                </div>
+              </div>
+            </form>
+            <div class="col-2">
+              <button type="button" id="backToTop" class="btn btn-outline-light mb-4" onclick="goToTop()">Top</button>
+            </div>
+          </section>
+        </div>
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright:
+          <a class="text-white text-decoration-none" href="#">Mahmoud Esmaeel</a>
+        </div>
+      </footer>
+      <!-- Footer End -->
+
+      <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
